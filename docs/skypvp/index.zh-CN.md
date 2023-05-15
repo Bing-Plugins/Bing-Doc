@@ -1,3 +1,10 @@
+---
+title: BingSkyPvP 指南
+nav:
+  title: BingSkyPvP
+  order: 1
+---
+
 # 欢迎访问 BingSkyPvP 指南
 
 感谢你购买 BingSkyPvP，此插件长期更新。

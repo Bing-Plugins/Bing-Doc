@@ -1,9 +1,7 @@
 ---
 title: 快速开始
-atomId: Quick Start
-description: 快速开始
-group:
-  title: 快速开始
+order: 1
+group: 快速开始
 ---
 
 # 快速开始

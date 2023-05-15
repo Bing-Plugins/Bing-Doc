@@ -1,9 +1,7 @@
 ---
 title: 新建幸运方块
-atomId: Create Lucky Block
-description: 创建幸运方块
-group:
-  title: 快速开始
+group: 快速开始
+nav: BingSkyPvP
 ---
 
 # 新建幸运方块

@@ -1,9 +1,7 @@
 ---
 title: 新建幸运物品
-atomId: Create Lucky Item
-description: 创建幸运物品
-group:
-  title: 快速开始
+group: 快速开始
+nav: BingSkyPvP
 ---
 
 # 新建幸运物品
