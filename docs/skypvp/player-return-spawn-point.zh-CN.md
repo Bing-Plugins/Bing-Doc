@@ -1,5 +1,7 @@
 ---
-group: 其他命令
+group:
+  title: 其他命令
+  order: 3
 ---
 
 # 玩家返回重生点

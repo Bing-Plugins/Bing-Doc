@@ -1,5 +1,7 @@
 ---
-group: 功能
+group:
+  title: 功能
+  order: 2
 ---
 
 # 幸运方块类型

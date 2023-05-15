@@ -1,5 +1,7 @@
 ---
-group: 快速开始
+group:
+  title: 快速开始
+  order: 1
 ---
 
 # 设置出生点

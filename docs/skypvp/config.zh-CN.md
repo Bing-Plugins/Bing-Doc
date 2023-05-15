@@ -1,5 +1,7 @@
 ---
-group: 配置文件
+group:
+  title: 配置文件
+  order: 4
 ---
 
 # config.yml
