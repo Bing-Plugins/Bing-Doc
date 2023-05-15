@@ -12,8 +12,8 @@
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "@/*": ["src"],
-      "@arvinxu/npm-template": ["src"],
-      "@arvinxu/npm-template/*": ["src/*", "*"]
+      "@Bing-Plugins/Bing-Doc": ["src"],
+      "@Bing-Plugins/Bing-Doc/*": ["src/*", "*"]
     }
   }
 }

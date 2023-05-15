@@ -1,6 +1,6 @@
 ---
 hero:
-  title: @arvinxu/npm-template
+  title: @Bing-Plugins/Bing-Doc
   description: a npm develop template
   actions:
     - text: 快速上手

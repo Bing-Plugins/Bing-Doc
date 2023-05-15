@@ -3,7 +3,7 @@ import { homepage } from './package.json';
 
 export default defineConfig({
   themeConfig: {
-    name: '@arvinxu/npm-template',
+    name: '@Bing-Plugins/Bing-Doc',
     github: homepage,
   },
 });

@@ -1,4 +1,4 @@
-# @arvinxu/npm-template
+# @Bing-Plugins/Bing-Doc
 
 [![NPM version][npm-image]][npm-url] [![NPM downloads][download-image]][download-url] [![install size][npm-size]][npm-size-url]
 
@@ -9,7 +9,7 @@
 <!-- gitpod url -->
 
 [gitpod-badge]: https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod
-[gitpod-url]: https://gitpod.io/#https://github.com/ant-design/@arvinxu/npm-template
+[gitpod-url]: https://gitpod.io/#https://github.com/ant-design/@Bing-Plugins/Bing-Doc
 
 <!-- umi url -->
 
@@ -18,10 +18,10 @@
 
 <!-- npm url -->
 
-[npm-image]: http://img.shields.io/npm/v/@arvinxu/npm-template.svg?style=flat-square&color=deepgreen&label=latest
-[npm-url]: http://npmjs.org/package/@arvinxu/npm-template
-[npm-size]: https://img.shields.io/bundlephobia/minzip/@arvinxu/npm-template?color=deepgreen&label=gizpped%20size&style=flat-square
-[npm-size-url]: https://packagephobia.com/result?p=@arvinxu/npm-template
+[npm-image]: http://img.shields.io/npm/v/@Bing-Plugins/Bing-Doc.svg?style=flat-square&color=deepgreen&label=latest
+[npm-url]: http://npmjs.org/package/@Bing-Plugins/Bing-Doc
+[npm-size]: https://img.shields.io/bundlephobia/minzip/@Bing-Plugins/Bing-Doc?color=deepgreen&label=gizpped%20size&style=flat-square
+[npm-size-url]: https://packagephobia.com/result?p=@Bing-Plugins/Bing-Doc
 
 <!-- coverage -->
 
@@ -34,8 +34,8 @@
 [release-ci]: https://github.com/arvinxx/npm-template/workflows/Release%20CI/badge.svg
 [test-ci-url]: https://github.com/arvinxx/npm-template/actions?query=workflow%3ATest%20CI
 [release-ci-url]: https://github.com/arvinxx/npm-template/actions?query=workflow%3ARelease%20CI
-[download-image]: https://img.shields.io/npm/dm/@arvinxu/npm-template.svg?style=flat-square
-[download-url]: https://npmjs.org/package/@arvinxu/npm-template
+[download-image]: https://img.shields.io/npm/dm/@Bing-Plugins/Bing-Doc.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@Bing-Plugins/Bing-Doc
 
 ## 简介
 
@@ -55,7 +55,7 @@
 推荐使用 `pnpm` 安装
 
 ```bash
-pnpm i @arvinxu/npm-template -S
+pnpm i @Bing-Plugins/Bing-Doc -S
 ```
 
 ### 使用
@@ -70,7 +70,7 @@ pnpm i @arvinxu/npm-template -S
 
 ### Step2. 初始化项目信息
 
-使用编辑器全局替换 `@arvinxu/npm-template` 为你的包名（例如 `antd-style`），执行 `pnpm i` 安装依赖。
+使用编辑器全局替换 `@Bing-Plugins/Bing-Doc` 为你的包名（例如 `antd-style`），执行 `pnpm i` 安装依赖。
 
 ### Step3. 开始开发
 
