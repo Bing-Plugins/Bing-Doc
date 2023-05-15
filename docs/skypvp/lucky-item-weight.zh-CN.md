@@ -1,6 +1,5 @@
 ---
 group: 功能
-nav: BingSkyPvP
 ---
 
 # 幸运物品权重

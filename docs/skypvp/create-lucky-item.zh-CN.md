@@ -1,7 +1,5 @@
 ---
-title: 新建幸运物品
 group: 快速开始
-nav: BingSkyPvP
 ---
 
 # 新建幸运物品

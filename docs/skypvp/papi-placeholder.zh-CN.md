@@ -1,6 +1,5 @@
 ---
 group: 功能
-nav: BingSkyPvP
 ---
 
 # PAPI 占位符

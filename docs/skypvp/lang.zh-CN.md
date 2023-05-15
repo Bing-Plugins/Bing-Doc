@@ -1,6 +1,5 @@
 ---
 group: 配置文件
-nav: BingSkyPvP
 ---
 
 # Lang.yml

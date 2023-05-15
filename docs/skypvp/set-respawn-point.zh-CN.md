@@ -1,7 +1,5 @@
 ---
-title: 设置出生点
 group: 快速开始
-nav: BingSkyPvP
 ---
 
 # 设置出生点

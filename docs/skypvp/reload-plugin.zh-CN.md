@@ -1,6 +1,5 @@
 ---
 group: 其他命令
-nav: BingSkyPvP
 ---
 
 # 重载插件
