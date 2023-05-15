@@ -1,19 +1,27 @@
+---
+title: 快速开始
+atomId: Quick Start
+description: 快速开始
+group:
+  title: 快速开始
+---
+
 # 快速开始
 
 ## 第一步：获取 Token
 
-{% hint style="success" %}
+:::success{title=提示}
 如果你从 SpigotMC 或 BuiltByBit(MC-Market) 购买插件，可跳过此步骤。\
 Token 仅在使用构建版本时才需要。
-{% endhint %}
+:::
 
 1. 通过 [Discord](https://discord.gg/MZ74zFevCD) 或 邮箱( Bing\_Yanchi@outlook.com ) 联系我。
 2. 将你的 `Discord#ID` 或 `邮箱` 发在你的 “Profile Posts” 中，以验证身份。
 3. 我会将你的 Token 发送给你。
 
-{% hint style="warning" %}
+:::warning{title=注意}
 妥善保管你的 Token，如果发现滥用行为，你的 Token 可能会被禁用。
-{% endhint %}
+:::
 
 ## 第二步：填写配置文件
 
@@ -24,4 +32,4 @@ Token 仅在使用构建版本时才需要。
 5. 在 `config.yml` 中填入你的 MySQL 信息。
 6. 启动服务器，开始使用吧！
 
-> 此指南由 Tang_pudding 编写，感谢！
+> 此指南由 Tang_Pudding 编写，感谢！

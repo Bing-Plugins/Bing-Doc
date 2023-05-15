@@ -1,8 +1,8 @@
-# Welcome to BingSkyPvP Guide
+# 欢迎访问 BingSkyPvP 指南
 
-Thank you for purchasing BingSkyPvP, this plugin will be updated for a long time.
+感谢你购买 BingSkyPvP，此插件长期更新。
 
-Next, click on the page name on the left to start browsing the guide!
+接下来点击左侧的页面名称开始浏览指南吧！
 
 {% content-ref url="en-us/quick-start/" %}
 [quick-start](en-us/quick-start/)
