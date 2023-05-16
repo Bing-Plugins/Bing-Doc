@@ -4,13 +4,17 @@ group: 快速开始
 
 # 新建幸运方块
 
-| 命令                                | 描述            |
-|-----------------------------------|---------------|
-| /LuckyBlock add \<type>           | 在脚下新建幸运方块     |
-| /LuckyBlock display \<type>       | 在脚下新建展示用幸运方块  |
-| /LuckyBlock add \<type> stick     | 获取创建幸运方块木棍    |
+:::success{title=提示}
+执行这些命令需要权限：SkyPvP.admin
+:::
+
+| 命令                              | 描述                       |
+| --------------------------------- | -------------------------- |
+| /LuckyBlock add \<type>           | 在脚下新建幸运方块         |
+| /LuckyBlock display \<type>       | 在脚下新建展示用幸运方块   |
+| /LuckyBlock add \<type> stick     | 获取创建幸运方块木棍       |
 | /LuckyBlock display \<type> stick | 获取创建展示用幸运方块木棍 |
-| /LuckyBlock remove                | 获取删除幸运方块木棍    |
+| /LuckyBlock remove                | 获取删除幸运方块木棍       |
 
 ## 新建幸运方块
 
