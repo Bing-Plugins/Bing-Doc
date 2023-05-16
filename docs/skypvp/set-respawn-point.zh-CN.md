@@ -16,6 +16,6 @@ group:
 2. 使用 `/SkyPvP setSpawn` 命令
 3. 完成设置出生点
 
-{% hint style="info" %}
+:::info{title=信息}
 此设置会保存你面向的方位
-{% endhint %}
+:::

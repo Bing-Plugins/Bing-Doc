@@ -13,8 +13,4 @@ nav:
 
 接下来点击左侧的页面名称开始浏览指南吧！
 
-<Features1></Features1>
-
-{% content-ref url="en-us/quick-start/" %}
-[quick-start](en-us/quick-start/)
-{% endcontent-ref %}
+<Features></Features>

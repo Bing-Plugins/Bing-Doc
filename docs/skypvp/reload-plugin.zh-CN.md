@@ -4,9 +4,9 @@ group: 其他命令
 
 # 重载插件
 
-{% hint style="success" %}
+:::success{title=提示}
 执行这些命令需要权限：SkyPvP.admin
-{% endhint %}
+:::
 
 | 命令           | 描述     |
 | -------------- | -------- |
