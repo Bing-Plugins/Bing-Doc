@@ -1,16 +1,16 @@
 ---
-title: BingSkyPvP 指南
+title: BingSkyPvP Guide
 nav:
   title: BingSkyPvP
   order: 1
 ---
 
-# 欢迎访问 BingSkyPvP 指南
+# Welcome to BingSkyPvP Guide
 
 [![Crowdin](https://badges.crowdin.net/bings-plugins/localized.svg)](https://crowdin.com/project/bings-plugins)
 
-感谢你使用 BingSkyPvP，此插件长期更新。
+Thank you for using BingSkyPvP, this plugin is updated regularly.
 
-接下来点击左侧的页面名称开始浏览指南吧！
+Next, click on the page name on the left to start browsing the guide!
 
 <Features></Features>
