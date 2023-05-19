@@ -1,14 +1,13 @@
 ---
 hero:
-  title: '@bing-plugins/bingtang-doc'
-  description: a npm develop template
+  title: 冰糖文檔
+  description: 包含了冰糖有關的所有信息的資料庫
   actions:
     - 
-      text: 快速上手
-      link: /guide
+      text: Github
+      link: https://github.com/Bing-Plugins/BingTang-Docs/
     - 
-      text: 完全指南
-      link: /usage
+      text: Crowdin
+      link: https://crowdin.com/project/bingtang-docs
 ---
 
-<embed src="../README.md"></embed>
