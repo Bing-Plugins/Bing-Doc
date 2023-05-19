@@ -8,4 +8,4 @@ BingQueue can be installed on sub-servers (branches of Bukkit, such as: Spigot, 
 
 These language information are stored in the lang.yml file on the sub-server.
 
-Each button can also be set to the corresponding linked image, just fill in the website in the config.yml file on the sub-server, and set the image name as follows, you can display the image in the UI page.
+每个按钮也可以设置为相适应的链接图片，只需要将网站填入子服务器的 config.yml 文件中，并且按如下命名设置图片名称，就可以在 UI 页面中显示图片了。
