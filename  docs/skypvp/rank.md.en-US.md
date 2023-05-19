@@ -1,14 +1,14 @@
 ---
-group: 配置文件
+group: Configuration file
 ---
 
 # Rank.yml
 
 ```yaml
 Ranks:
-  # 这里的数字其实就是起始的位置
-  # 达到了就显示对应的 Rank
-  # 键一定要为数字
+  # The numbers here are actually the starting positions
+  # When reached, the corresponding Rank is displayed
+  # The key must be a number
   0: '0'
   10: '1'
   20: '2'
@@ -22,4 +22,4 @@ Ranks:
   100: '10'
 ```
 
-根据击杀数显示的 Rank，右侧的值可以不是数字，可以是带颜色符号的字符串。
+The Rank displayed according to the kill count, the value on the right can be not a number, but a string with color symbols.
