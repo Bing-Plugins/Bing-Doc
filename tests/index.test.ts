@@ -1,4 +1,4 @@
-import { hello } from '@Bing-Plugins/BingTang-Doc';
+import { hello } from '@bing-plugins/bingtang-doc';
 
 test('hello', () => {
   expect(hello()).toBe('world');

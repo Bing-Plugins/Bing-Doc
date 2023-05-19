@@ -1,6 +1,6 @@
 ---
 name: '疑问或需要帮助 ❓'
-about: 对 @Bing-Plugins/BingTang-Doc 使用的疑问或需要帮助
+about: 对 @bing-plugins/bingtang-doc 使用的疑问或需要帮助
 title: '🧐[问题]'
 labels: '🧐 Question'
 assignees: ''
