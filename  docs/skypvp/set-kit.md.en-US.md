@@ -29,9 +29,9 @@ Currently only supports setting one kit.
 
 ## Get kit
 
-:::success{title=提示}
-此能主要用于测试，或者手动获取套装
+:::success{title=Tip}
+This ability is mainly used for testing, or manually getting the kit
 :::
 
-1. 使用 `/LuckyKit get` 命令。
-2. 套装会替换到你的背包。
+1. Use `/LuckyKit get` command.
+2. The kit will replace your backpack.
