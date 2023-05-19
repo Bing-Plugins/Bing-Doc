@@ -1,6 +1,6 @@
 import { Footer } from 'dumi-theme-antd-style';
 
-const Footer: FC = () => {
+const Footer = () => {
   return (<Footer bottom={'Copyright © 2016 BingTang Doc'}/>);
 }
 
