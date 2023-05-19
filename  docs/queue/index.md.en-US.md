@@ -1,16 +1,16 @@
 ---
-title: BingQueue 指南
+title: BingQueue Guide
 nav:
   title: BingQueue
   order: 2
 ---
 
-# 欢迎访问 BingQueue 指南
+# Welcome to the BingQueue guide
 
-感谢你使用 BingQueue，此插件长期更新。
+Thank you for using BingQueue, this plugin is updated for a long time.
 
-主要用于代理端（BungeeCord/Velocity）及其分支中，根据服务器状态、在线玩家数、服务器 MOTD 等方式判断玩家应该连接到哪个服务器。
+Mainly used in proxy-side (BungeeCord/Velocity) and its branches, to determine which server the player should connect to based on server status, online player count, server MOTD and other methods.
 
-通常用于匹配系统，插件经过长期地调试和改进，目前已经稳定运行。在 Velocity 上运行效率最佳，在 BungeeCord 及其分支的稳定性暂未经过充分测试。
+Usually used for matching systems, the plugin has been debugged and improved for a long time, and it is currently running stably.It runs best on Velocity, and the stability on BungeeCord and its branches has not been fully tested.
 
-接下来点击左侧的页面名称开始浏览指南吧！
+Next, click on the page name on the left to start browsing the guide!
