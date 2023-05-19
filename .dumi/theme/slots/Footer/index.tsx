@@ -10,11 +10,11 @@ import { getColumns } from './columns';
 import { useStyles } from './style';
 
 const Footer: FC = () => {
-  const { themeConfig, pkg } = useSiteStore((s) => s.siteData);
+  const {themeConfig, pkg} = useSiteStore((s) => s.siteData);
   const githubUrl = useSiteStore(githubSel);
 
-  const { styles, theme } = useStyles();
-  const { mobile } = useResponsive();
+  const {styles, theme} = useStyles();
+  const {mobile} = useResponsive();
   if (!themeConfig.footer) return null;
 
   const footer = themeConfig.footerConfig as IFooter;
@@ -22,10 +22,11 @@ const Footer: FC = () => {
   const columns =
     footer?.columns === false
       ? undefined
-      : getColumns({ github: githubUrl || (pkg as any).homepage });
+      : getColumns({github: githubUrl || (pkg as any).homepage});
 
   const bottomFooter = footer?.bottom || themeConfig.footer;
 
-  return (<Foot bottom={'Copyright © 2016 BingTang Doc'} colunms={columns} />);
+  return (<Foot bottom={'Copyright © 2016 BingTang Doc'} colunms={columns}/>);
+}
 
 export default Footer;
