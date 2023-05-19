@@ -2,54 +2,54 @@
 group: Quick Start
 ---
 
-# 新建幸运方块
+# Create a new lucky block
 
-:::success{title=提示}
-执行这些命令需要权限：SkyPvP.admin
+:::success{title=Tip}
+You need the permission：SkyPvP.admin
 :::
 
-| 命令                                 | 描述            |
-| ---------------------------------- | ------------- |
-| /LuckyBlock add \<type>           | 在脚下新建幸运方块     |
-| /LuckyBlock display \<type>       | 在脚下新建展示用幸运方块  |
-| /LuckyBlock add \<type> stick     | 获取创建幸运方块木棍    |
-| /LuckyBlock display \<type> stick | 获取创建展示用幸运方块木棍 |
-| /LuckyBlock remove                 | 获取删除幸运方块木棍    |
+| Command                            | Description                                  |
+| ---------------------------------- | -------------------------------------------- |
+| /LuckyBlock add \<type>           | Create a lucky block under your feet         |
+| /LuckyBlock display \<type>       | Create a display lucky block under your feet |
+| /LuckyBlock add \<type> stick     | Get a stick to create a lucky block          |
+| /LuckyBlock display \<type> stick | Get a stick to create a display lucky block  |
+| /LuckyBlock remove                 | Get a stick to create a display lucky block  |
 
-## 新建幸运方块
+## Create a new lucky block
 
-我们提供了两种方式创建幸运方块。
+We provide two ways to create a lucky block.
 
-### 方法一：使用命令
+### Method one: Use commands
 
-1. 找到你要新建幸运方块的位置。
-2. 执行命令 `/LuckyBlock add <type>`。
-3. 完成创建。
+1. Find the location where you want to create a new lucky block.
+2. Execute the command `/LuckyBlock add <type>`.
+3. Complete the creation.
 
-### 方法二：使用木棍
+### Method two: Use a stick
 
-1. 执行命令 `/LuckyBlock add <type> stick`。
-2. 找到你要新建幸运方块的位置。
-3. 右键木棍。
-4. 完成创建。
+1. Execute the command `/LuckyBlock add <type> stick`.
+2. Find the location where you want to create a new lucky block.
+3. Right-click the stick.
+4. Complete the creation.
 
-## 新建展示用幸运方块
+## Create a new display lucky block
 
-展示用幸运方块与正常的幸运方块创建方法几乎一致。
+The display lucky block is almost identical to the normal lucky block in terms of creation method.
 
-但指令为 `/LuckyBlock display <类型>` 和 `/LuckyBlock display <类型> stick`。
+But the commands are `/LuckyBlock display <type>` and `/LuckyBlock display <type> stick`.
 
-:::info{title=信息}
-展示用幸运方块不支持 Random 类型
+:::info{title=Information}
+Display lucky blocks do not support Random type
 :::
 
-## 移除幸运方块
+## Remove lucky blocks
 
-1. 执行 `/LuckBlock remove` 命令获取删除木棍。
-2. 找到你要删除的幸运方块。
-3. 手持木棍右键你要删除的幸运方块。
-4. 幸运方块会立刻被删除并保存。
+1. Execute the command `/LuckBlock remove` to get the delete stick.
+2. Find the lucky block you want to delete.
+3. Right-click the lucky block you want to delete with the stick in your hand.
+4. The lucky block will be deleted and saved immediately.
 
-:::success{title=提示}
-正常幸运方块和展示用幸运方块均可使用此方法移除
+:::success{title=Tip}
+Normal lucky blocks and display lucky blocks can both be removed using this method
 :::
