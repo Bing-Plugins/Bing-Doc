@@ -1,11 +1,11 @@
 ---
-group: 快速开始
+group: Quick Start
 ---
 
-# 设置套装
+# Set kit
 
-:::info{title=信息}
-套装将会在玩家首次进入服务器和死亡后替换到背包中，通常用于放初始的装备。 设置的套装物品位置会和给予的时候相同。
+:::info{title=Information}
+The kit will replace the items in the backpack when the player first enters the server and after death, usually used to put the initial equipment. The position of the kit items will be the same as when they are given.
 :::
 
 :::success{title=提示}
