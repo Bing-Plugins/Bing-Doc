@@ -1,14 +1,13 @@
 ---
 hero:
-  title: '@bing-plugins/bingtang-doc'
-  description: a npm develop template
+  title: BingTang Docs
+  description: A library of information containing all the information about BingTang
   actions:
     - 
-      text: Quick Start
-      link: /guide
+      text: Github
+      link: https://github.com/Bing-Plugins/BingTang-Docs/
     - 
-      text: Complete Guide
-      link: /usage
+      text: Crowdin
+      link: https://crowdin.com/project/bingtang-docs
 ---
 
-<embed src="../README.md"></embed>
