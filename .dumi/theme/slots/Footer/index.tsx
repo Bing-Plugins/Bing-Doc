@@ -26,6 +26,6 @@ const Footer: FC = () => {
 
   const bottomFooter = footer?.bottom || themeConfig.footer;
 
-  return (<Foot bottom={'Copyright © 2016 BingTang Doc'} colunms= />);
+  return (<Foot bottom={'Copyright © 2016 BingTang Doc'} colunms={columns} />);
 
 export default Footer;
