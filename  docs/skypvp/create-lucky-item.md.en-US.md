@@ -30,7 +30,7 @@ There are two ways to add a lucky item, one is to use a command directly.The oth
 ### Method one: Create directly using commands (recommended)
 
 1. Hold the item you want to add
-2. 使用 `/LuckyItem add <类型> <权重>` 命令。
+2. Use `/LuckyItem add <type> <weight>` command.
 3. Complete the addition operation.
 
 ### Method two: Create from the GUI
@@ -45,7 +45,7 @@ There are two ways to add a lucky item, one is to use a command directly.The oth
 
 There is only one way to remove lucky items, which can only be removed from the GUI.
 
-1. 使用 `/LuckyItem gui <类型>` 命令打开 GUI。
+1. Open GUI using the `/LuckyItem gui <type>` command.
 2. Find the lucky item you want to remove.
 3. Shift + right-click on this item.
 4. Complete the removal.
