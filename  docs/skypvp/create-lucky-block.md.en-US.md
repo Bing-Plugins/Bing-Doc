@@ -1,5 +1,5 @@
 ---
-group: 快速开始
+group: Quick Start
 ---
 
 # 新建幸运方块
