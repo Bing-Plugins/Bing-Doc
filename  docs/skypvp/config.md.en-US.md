@@ -1,65 +1,65 @@
 ---
 group:
-  title: 配置文件
+  title: Configuration file
   order: 4
 ---
 
 # config.yml
 
 ```yaml
-# Token 认证令牌
-# 如果你从 SpigotMC 购买则无需填写 Token
+# Token authentication token
+# If you bought from SpigotMC, you don’t need to fill in the Token
 Token: ''
 
-# 更新检查器
+# Update checker
 Update-Checker: true
 
-# Debug 模式
+# Debug mode
 Debug-Mode: false
 
-# 战斗模式持续时间
+# Combat mode duration
 Combat-Time: 10
 
-# 传送等待时间
+# Teleport wait time
 Spawn-Cool-Down: 3
 
-# 击杀给予经济
+# Kill to give economy
 Kill-Coins: 10
 
-# 死亡保留经验
+# Keep death experience
 Keep-Death-Exp: false
 
-# 进入游戏几秒内无伤害 (不建议设置为 0)
+# No damage within a few seconds of entering the game (not recommended to set to 0)
 No-Damage-On-Join: 3
 
-# 击入虚空时, 认定多少秒内的攻击者为杀手
+# When hitting the void, determine the attacker within how many seconds as the killer
 Void-Kill-Time: 10
 
-# 当玩家低于指定高度，认定为死亡
+# When the player is below the specified height, it is considered as death
 Void-Kill-Height: -200
 
-# 死亡重生时间
+# Death respawn time
 Death-Respawn-Time: 0
 
-# 禁用计分板
+# Disable scoreboard
 Disable-Scoreboard: false
 
-# 启用保存库存
+# Enable save inventory
 Enable-Keep-Inventory: false
 
-# 自定义打开幸运方块声音
+# Custom open lucky block sound
 # 1.8 LEVEL_UP
 # 1.9+ ENTITY_PLAYER_LEVELUP
 Open-Loot-Sound: ''
 
-# 出生位置
+# Place of birth
 Spawn-Loc: ''
 
-# 数据库类型
-# SQLite 或 MySQL
+# Database type
+# SQLite or MySQL
 Database: SQLite
 
-# 数据部分
+# Data part
 MySQL:
   driver: ''
   host: mysql.yistars.net
@@ -71,68 +71,68 @@ MySQL:
 
 ## Token
 
-购买后联系插件作者获取的 Token，需要正确填入 Token，插件才可以正常运行。
+The token obtained by contacting the plugin author after purchase needs to be filled in correctly for the plugin to run normally.
 
 ## Update-Checker
 
-当拥有 `SkyPvP.admin` 权限的玩家将会在进入服务器的时候收到插件更新通知。
+Players with the `SkyPvP.admin` permission will receive plugin update notifications when they enter the server.
 
 ## Debug-Mode
 
-调试模式，仅限在测试版本中可用。在开发者帮助的情况下使用。
+Debug mode, only available in test versions.Use with the help of developers.
 
 ## Combat-Time
 
-当玩家攻击其他玩家/被其他玩家攻击后，多久退出战斗模式。
+How long to exit combat mode after a player attacks another player/is attacked by another player.
 
-战斗模式下离开游戏，会直接使玩家死亡，掉落背包物品。
+Leaving the game in combat mode will cause the player to die instantly and drop their backpack items.
 
 ## Spawn-Cool-Down
 
-玩家使用 `/spawn` 命令后需要等待多久才会传送。
+How long does a player have to wait before teleporting after using the `/spawn` command.
 
 ## Keep-Death-Exp
 
-玩家死亡后是否保留经验。
+Whether the player keeps their experience after death.
 
 ## No-Damage-On-Join
 
-玩家进入游戏后多少秒不会受到伤害。起初此功能是为了防止玩家从虚空传送到出生点时，因为 Minecraft 的特性，导致玩家摔死而设计的。所以不建议将此值设置的过小。
+How many seconds a player will not take damage after entering the game.This feature was originally designed to prevent players from dying from falling when teleporting from the void to the spawn point, due to Minecraft’s characteristics.Therefore, it is not recommended to set this value too small.
 
 ## Void-Kill-Time
 
-当一名玩家在因为坠入虚空而死亡时，判定多少秒内对他攻击的玩家为击杀者。
+How many seconds to determine the player who attacked him as the killer when a player dies from falling into the void.
 
 ## Void-Kill-Height
 
-当玩家低于此高度，判定该玩家死亡。
+When the player is below this height, the player is judged to be dead.
 
 ## Death-Respawn-Time
 
-死亡时会切换到观察者模式，然后等待指定秒数后复活。
+When you die, you switch to spectator mode and then respawn after a specified number of seconds.
 
-将此值设置为 0 时禁用此功能。
+Setting this value to 0 disables this feature.
 
 ## Disable-Scoreboard
 
-禁用内置的计分板功能。可以用于关闭计分板。
+Disable the built-in scoreboard feature.Can be used to turn off the scoreboard.
 
 ## Enable-Keep-Inventory
 
-禁用内置的物品掉落功能。
+Disable the built-in item drop feature.
 
 ## Open-Loot-Sound
 
-打开幸运方块时的声音。
+The sound when opening a lucky block.
 
 ## Spawn-Loc
 
-重生点的坐标，通常情况下，不需要自己填写。你可以使用 `/SkyPvP setSpawn` 命令设置。
+The coordinates of the respawn point, usually you don’t need to fill it in yourself.You can use the `/SkyPvP setSpawn` command to set it.
 
 ## Database
 
-数据库类型，根据你的需要进行选择。默认为 SQLite，如果你希望使用 MySQL，将这里的值修改为 MySQL 即可。
+Database type, choose according to your needs.The default is SQLite, if you want to use MySQL, just change the value here to MySQL.
 
 ## MySQL
 
-目前仅支持 MySQL 数据库，正常填写即可。
+Currently only MySQL database is supported, just fill in normally.
