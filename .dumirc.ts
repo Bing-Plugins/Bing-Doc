@@ -7,6 +7,7 @@ export default defineConfig({
   themeConfig: {
     name: 'BingTang Docs',
     github: 'https://github.com/Bing-Plugins/BingTang-Doc',
+    footer: false,
     showLineNum: true,
     rtl: true
   },
@@ -16,7 +17,6 @@ export default defineConfig({
     { id: 'en-US', name: 'English'}
   ],
   sitemap: {
-    hostname: 'sitemap.xml',
-    exclude: []
+    hostname: 'https://docs.yistars.net/'
   }
 });
