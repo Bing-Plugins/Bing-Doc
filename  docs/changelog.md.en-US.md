@@ -1,7 +1,7 @@
 ---
-title: 更新日志
+title: Release Note
 nav:
-  title: 更新日志
+  title: Release Note
   order: 999
 ---
 
