@@ -20,8 +20,8 @@ Keep your Token safe, if abuse is detected, your Token may be disabled.
 1. Put `BingSkyPvP-{version}.jar` into the `plugins` folder.
 2. Run the server once, then shut it down.
 3. Found `plugins` folder `BingSkyPvP`.
-4. 在 `config.yml` 中的 `Token` 中填入发送给你的 `Token`。
-5. 在 `config.yml` 中填入你的 MySQL 信息。
-6. 启动服务器，开始使用吧！
+4. Fill in the `Token` sent to you in `Token` in `config.yml`.
+5. Enter your MySQL information in `config.yml`.
+6. Start the server and enjoy!
 
-> 此指南由 Tang_Pudding 编写，感谢！
+> This guide was written by Tang_Pudding, thank you!
