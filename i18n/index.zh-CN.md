@@ -4,10 +4,10 @@ hero:
   description: 包含了冰糖有关的所有信息的资料库
   actions:
     - 
-      text: 快速上手
-      link: /guide
+      text: Github
+      link: https://github.com/Bing-Plugins/BingTang-Docs/
     - 
-      text: 完全指南
-      link: /usage
+      text: Crowdin
+      link: https://crowdin.com/project/bingtang-docs
 ---
 
