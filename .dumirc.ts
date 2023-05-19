@@ -2,7 +2,7 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   resolve: {
-    docDirs: ['i18n/docs'],
+    docDirs: ['i18n'],
   },
   themeConfig: {
     name: 'BingTang Docs',
