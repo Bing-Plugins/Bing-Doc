@@ -1,5 +1,5 @@
 ---
-group: 配置文件
+group: Configuration file
 ---
 
 # LootChest.yml
@@ -45,16 +45,16 @@ Random:
 
 ## texture
 
-幸运方块头颅的 texture，可修改。
+The texture of the lucky block head, which can be modified.
 
 ## respawnTime
 
-此类型幸运方块再次生成时间。
+The time for this type of lucky block to regenerate.
 
 ## display
 
-展示用幸运方块的坐标。
+The coordinates of the display lucky block.
 
 ## items
 
-此类型幸运方块的幸运物品，通常不需要手动修改。
+The lucky items of this type of lucky block, which usually do not need to be modified manually.
