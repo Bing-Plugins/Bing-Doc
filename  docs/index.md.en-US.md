@@ -4,10 +4,10 @@ hero:
   description: a npm develop template
   actions:
     - 
-      text: 快速上手
+      text: Quick Start
       link: /guide
     - 
-      text: 完全指南
+      text: Complete Guide
       link: /usage
 ---
 
