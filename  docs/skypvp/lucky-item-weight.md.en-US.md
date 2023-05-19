@@ -1,26 +1,26 @@
 ---
-group: 功能
+group: Function
 ---
 
-# 幸运物品权重
+# Lucky item weight
 
-:::info{title=信息}
-此部分仅限想知道原理的。\
-其实只需要知道权重越大抽中的概率越大即可。
+:::info{title=Information}
+This part is only for those who want to know the principle.\
+Actually, you only need to know that the larger the weight, the greater the probability of being drawn.
 :::
 
-## 幸运方块开启时是怎么抽取物品的？
+## How are items drawn when the lucky block is opened?
 
-幸运方块开启流程如下：
+The lucky block opening process is as follows:
 
-1. 先将同种品质的所有物品的权重相加。
-2. 从 0 到 相加的权重 中取任意值。
-3. 判断此值属于哪个物品的区间。
+1. First, add up the weights of all items of the same quality.
+2. Take any value from 0 to the sum of the weights.
+3. Determine which item’s interval this value belongs to.
 
-其实由此就能看出，权重越大，被抽中的概率越大。
+In fact, from this you can see that the larger the weight, the greater the probability of being drawn.
 
-## GUI 中显示的概率是怎么计算的？
+## How is the probability displayed in the GUI calculated?
 
-其实如果你看懂了上面的内容，就不难理解。
+In fact, if you understand the content above, it is not difficult to understand.
 
-概率就是用该物品的权重除以所有同品质的物品的权重总和，所得到的百分比。
+The probability is obtained by dividing the weight of the item by the sum of the weights of all items of the same quality, and then multiplying by 100%.
