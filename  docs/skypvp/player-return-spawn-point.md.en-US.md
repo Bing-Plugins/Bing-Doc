@@ -1,18 +1,18 @@
 ---
 group:
-  title: 其他命令
+  title: Other commands
   order: 3
 ---
 
-# 玩家返回重生点
+# Player return to spawn point
 
-:::success{title=提示}
-执行此命令不需要额外的权限
+:::success{title=Tip}
+No extra permissions are required to execute this command
 :::
 
-| 命令     | 权限            |
-| ------ | ------------- |
-| /Spawn | 回到出生点（需要预先设定） |
+| Command | permission    |
+| ------- | ------------- |
+| /Spawn  | 回到出生点（需要预先设定） |
 
 ## 先决条件
 
