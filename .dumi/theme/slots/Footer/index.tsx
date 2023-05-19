@@ -1,5 +1,30 @@
-import { Footer } from 'dumi-theme-antd-style';
+import { Divider } from 'antd';
+import { useResponsive } from 'antd-style';
+import { type FC } from 'react';
+import { Center, Flexbox } from 'react-layout-kit';
+
+import { IFooter } from '@/types';
+import Foot, { FooterProps } from '../../components/Footer';
+import { githubSel, useSiteStore } from '../../store';
+import { getColumns } from './columns';
+import { useStyles } from './style';
+
+const { themeConfig, pkg } = useSiteStore((s) => s.siteData);
+const githubUrl = useSiteStore(githubSel);
+
+const { styles, theme } = useStyles();
+const { mobile } = useResponsive();
+if (!themeConfig.footer) return null;
+
+const footer = themeConfig.footerConfig as IFooter;
+
+const columns =
+  footer?.columns === false
+    ? undefined
+    : getColumns({ github: githubUrl || (pkg as any).homepage });
+
+const bottomFooter = footer?.bottom || themeConfig.footer;
 
 export default () => {
-  return <Footer bottom={'Copyright © 2016 BingTang Doc'} />;
+  return <Foot bottom={'Copyright © 2016 BingTang Doc'} colunms= />;
 };
