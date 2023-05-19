@@ -1,22 +1,22 @@
 ---
-group: 功能
+group: Function
 ---
 
-# PAPI 占位符
+# PAPI placeholders
 
-| 占位符                | 描述          |
-| ------------------ | ----------- |
-| %skypvp_kills%     | 击杀数         |
-| %skypvp_deaths%    | 死亡数         |
-| %skypvp_rank%      | 排名          |
-| %skypvp_nextrank%  | 下一级排名       |
-| %skypvp_lastscore% | 上一级排名所需击杀数  |
-| %skypvp_nextscore% | 下一级排名所需击杀数  |
-| %skypvp_progress%  | 排名进度条       |
-| %skypvp_combat%    | 战斗状态        |
-| %skypvp_kd%        | 玩家 K/D      |
-| %skypvp_all%       | 开出的所有幸运方块数量 |
-| %skypvp_common%    | 开出的普通幸运方块数量 |
-| %skypvp_rare%      | 开出的稀有幸运方块数量 |
-| %skypvp_epic%      | 开出的史诗幸运方块数量 |
-| %skypvp_legendary% | 开出的传奇幸运方块数量 |
+| Placeholder        | Description                               |
+| ------------------ | ----------------------------------------- |
+| %skypvp_kills%     | Kill count                                |
+| %skypvp_deaths%    | Death count                               |
+| %skypvp_rank%      | Rank                                      |
+| %skypvp_nextrank%  | Next rank                                 |
+| %skypvp_lastscore% | Kill count required for the previous rank |
+| %skypvp_nextscore% | Kill count required for the next rank     |
+| %skypvp_progress%  | Rank progress bar                         |
+| %skypvp_combat%    | Combat status                             |
+| %skypvp_kd%        | Player K/D                                |
+| %skypvp_all%       | Number of all lucky blocks opened         |
+| %skypvp_common%    | Number of common lucky blocks opened      |
+| %skypvp_rare%      | Number of rare lucky blocks opened        |
+| %skypvp_epic%      | Number of epic lucky blocks opened        |
+| %skypvp_legendary% | Number of legendary lucky blocks opened   |
