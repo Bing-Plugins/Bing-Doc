@@ -1,51 +1,51 @@
 ---
-group: 快速开始
+group: Quick Start
 ---
 
-# 新建幸运物品
+# Create a new lucky item
 
-:::info{title=信息}
-幸运物品就是打开幸运方块后掉落的物品，如果一个品质的幸运方块未设置物品，那么开启幸运方块后则会什么都不掉。
+:::info{title=Information}
+Lucky items are the items that drop after opening a lucky block. If a quality of lucky block has no items set, then nothing will drop after opening the lucky block.
 :::
 
-:::success{title=提示}
-执行这些命令需要权限：SkyPvP.admin
+:::success{title=Tip}
+You need the permission：SkyPvP.admin
 :::
 
-| 命令                                 | 描述           |
-| ---------------------------------- | ------------ |
-| /LuckyItem add \<type> \<weight> | 将手持物品设置为幸运物品 |
-| /LuckyItem gui                     | 预览幸运物品       |
+| Command                            | Description                               |
+| ---------------------------------- | ----------------------------------------- |
+| /LuckyItem add \<type> \<weight> | Set the item in your hand as a lucky item |
+| /LuckyItem gui                     | LuckyItem gui Preview lucky items         |
 
-## 什么是权重？
+## What is weight?
 
-权重用于计算物品被选中的概率，权重必须为正整数，最低为 0，权重越大被选中的概率越大。
+Weight is used to calculate the probability of an item being selected. Weight must be a positive integer, with a minimum of 0. The higher the weight, the higher the probability of being selected.
 
-注意：权重 ≠ 百分比
+Note: Weight ≠ Percentage
 
-## 新建幸运物品
+## Create a new lucky item
 
-添加幸运物品有两种方式，一个是直接使用命令。另一种是在 GUI 中点击新建。&#x20;
+There are two ways to add a lucky item, one is to use a command directly.The other is to click on create in the GUI.&#x20;
 
-### 方法一：直接使用命令新建（推荐）
+### Method one: Create directly using commands (recommended)
 
-1. 手持要添加的物品
+1. Hold the item you want to add
 2. 使用 `/LuckyItem add <类型> <权重>` 命令。
-3. 完成添加操作。
+3. Complete the addition operation.
 
-### 方法二：从 GUI 中新建
+### Method two: Create from the GUI
 
-1. 手持要添加的物品。
-2. 打开 GUI。
-3. 点击 GUI 底部的铁砧添加物品。
-4. 在铁砧页面填入权重。
-5. 完成添加。
+1. Hold the item you want to add.
+2. Open the GUI.
+3. Click on the anvil at the bottom of the GUI to add the item.
+4. Fill in the weight on the anvil page.
+5. Complete the addition.
 
-## 移除幸运物品
+## Remove lucky items
 
-移除幸运物品的方式仅有一种，只能从 GUI 中移除。
+There is only one way to remove lucky items, which can only be removed from the GUI.
 
 1. 使用 `/LuckyItem gui <类型>` 命令打开 GUI。
-2. 找到你要移除的幸运物品。
-3. Shift + 右键 此物品。
-4. 完成移除。
+2. Find the lucky item you want to remove.
+3. Shift + right-click on this item.
+4. Complete the removal.
