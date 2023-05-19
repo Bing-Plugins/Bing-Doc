@@ -1,13 +1,11 @@
 ---
 hero:
-  title: '@Bing-Plugins/BingTang-Doc'
+  title: @Bing-Plugins/Bing-Doc
   description: a npm develop template
   actions:
-    - 
-      text: Quick Start
+    - text: 快速上手
       link: /guide
-    - 
-      text: Complete Guide
+    - text: 完全指南
       link: /usage
 ---
 

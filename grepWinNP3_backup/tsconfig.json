@@ -12,8 +12,8 @@
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "@/*": ["src"],
-      "@Bing-Plugins/BingTang-Doc": ["src"],
-      "@Bing-Plugins/BingTang-Doc/*": ["src/*", "*"]
+      "@Bing-Plugins/Bing-Doc": ["src"],
+      "@Bing-Plugins/Bing-Doc/*": ["src/*", "*"]
     }
   }
 }

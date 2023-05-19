@@ -1,6 +1,6 @@
 ---
 hero:
-  title: '@Bing-Plugins/Bing-Doc'
+  title: '@Bing-Plugins/BingTang-Doc'
   description: a npm develop template
   actions:
     - 
