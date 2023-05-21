@@ -14,7 +14,7 @@ server-cache-redis-time: 1000
 ```
 
 ## token
-购买后联系插件作者获取的 Token，需要正确填入 Token，插件才可以正常运行。
+购买后联系插件作者获取的 `token` ，需要正确填入 `token` ，插件才可以正常运行。
 
 ## server-cache-time
 匹配队列 ping 一次之后缓存时间，用于防止玩家短时间内请求过多导致不必要的资源浪费。
