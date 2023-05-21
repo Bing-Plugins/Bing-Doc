@@ -1,5 +1,6 @@
 ---
 title: 自定义竞技场菜单
+order: 2
 ---
 
 # 自定义竞技场菜单
@@ -53,23 +54,30 @@ gui-{area-menu-id}-random-description: |-
   
   &e点击随机选择地图
 
-gui-area-previous-page-name: "&a上一页"
-gui-area-previous-page-description: |-
+gui-{area-menu-id}-previous-page-name: "&a上一页"
+gui-{area-menu-id}-previous-page-description: |-
   &7第 %previous-page% 页
 
-gui-area-next-page-name: "&a下一页"
-gui-area-next-page-description: |-
+gui-{area-menu-id}-next-page-name: "&a下一页"
+gui-{area-menu-id}-next-page-description: |-
   &7第 %next-page% 页
 
-gui-area-other-back-name: "&a返回"
-gui-area-other-back-description: |-
+gui-{area-menu-id}-other-{other-name}-name: "&a返回"
+gui-{area-menu-id}-other-{other-name}-description: |-
   &7返回%queueDisplayName%
 ```
 
-## gui-{area-menu-id}-title
+### gui-{area-menu-id}-title
 竞技场菜单显示标题
 
-## gui-{area-menu-id}-match-server-name
-竞技场匹配时显示的物品名称
+### gui-{area-menu-id}-{match/online/offline}-server-{name/description}
+竞技场 `匹配/在线/离线` 时显示的服务器 `名称/描述信息`
 
-## gui-{area-menu-id}-match-server-description
+### gui-{area-menu-id}-random-{name/description}
+随机选择竞技场按钮显示的 `名称/描述信息`
+
+### gui-area-{previous/next}-page-{name/description}
+`上一页/下一页` 按钮的 `名称/描述信息`
+
+### gui-{area-menu-id}-other-{other-name}-{name/description}
+自定义按钮的 `名称/描述信息`
