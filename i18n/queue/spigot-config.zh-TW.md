@@ -1,6 +1,6 @@
 ---
 group: 子服务器配置文件
-order: 2
+order: 3
 ---
 
 # config.yml
