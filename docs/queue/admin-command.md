@@ -1,7 +1,5 @@
 ---
-group: 
-  title: 命令
-  order: 4
+group: 命令
 ---
 
 # 管理员用命令
