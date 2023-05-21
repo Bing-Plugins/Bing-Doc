@@ -1,6 +1,7 @@
 ---
-group: 代理端配置文件
-order: 2
+group:
+  title: 代理端配置文件
+  order: 2
 ---
 
 # config.yml
