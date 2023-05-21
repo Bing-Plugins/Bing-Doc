@@ -1,6 +1,7 @@
 ---
-group: 功能
-order: 0
+group:
+  title: 功能
+  order: 1
 ---
 
 # Floodgate support
