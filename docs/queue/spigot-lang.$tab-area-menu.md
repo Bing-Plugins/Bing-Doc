@@ -5,10 +5,7 @@ order: 2
 
 # 自定义竞技场菜单
 
-:::warning{title=提示}
-你只需要将下面的文本复制一次就可以为一个自定义竞技场菜单填写语言文本\
-但记得将下文中的 `{area-menu-id}` 替换为你的自定义竞技场菜单的 ID
-:::
+你只需要将下面的文本复制一次就可以为一个自定义竞技场菜单填写语言文本
 
 ## 可用的变量
 | 变量                   | 解释        |
@@ -22,6 +19,11 @@ order: 2
 | %serverMaxPlayerNum% | 服务器最大人数   |
 
 ## 语言配置文本
+
+:::warning{title=提示}
+记得将下文中的 `{area-menu-id}` 替换为你的自定义竞技场菜单的 ID\
+`{other-name}` 替换为自定义物品的 ID
+:::
 
 ```yaml
 gui-{area-menu-id}-title: "%queueDisplayName%"
