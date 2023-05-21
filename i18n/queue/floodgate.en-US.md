@@ -1,5 +1,6 @@
 ---
-group: Function
+group: 功能
+order: 0
 ---
 
 # Floodgate support
@@ -14,5 +15,5 @@ Each button can also be set to the corresponding linked image, just fill in the 
 | ---------- | ----------------- |
 | 主菜单：开始游戏   | ./play.png        |
 | 主菜单：选择竞技场  | ./area-select.png |
-| 主菜单：自定义物品  | ./自定义名称.png       |
+| 主菜单：自定义物品  | ./{自定义名称}.png     |
 | 竞技场菜单：即将到来 |                   |
