@@ -1,6 +1,6 @@
 ---
 group: 子服务器配置文件
-order: 1
+order: 2
 ---
 
 # config.yml
@@ -19,7 +19,7 @@ floodgate-icon-url: "https://demo.yistars.net/queue/{name}.png"
 ```
 
 ## token
-购买后联系插件作者获取的 Token，需要正确填入 Token，插件才可以正常运行。
+购买后联系插件作者获取的 `token` ，需要正确填入 `token` ，插件才可以正常运行。
 
 ## default-main-menu
 默认主菜单名称文件名称，位于 `main-gui` 文件夹。
