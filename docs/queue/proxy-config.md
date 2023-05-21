@@ -1,6 +1,6 @@
 ---
 group: 代理端配置文件
-order: 0
+order: 1
 ---
 
 # config.yml
