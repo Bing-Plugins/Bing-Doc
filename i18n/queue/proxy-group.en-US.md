@@ -81,7 +81,7 @@ The attributes of the matching group, currently only support the following two t
 | DISABLE_MESSAGE | Do not display message when matching |
 
 ## gui-show-level
-The levels displayed in the Arena menu, from highest to lowest priority, are MATCH > ONLINE > OFFLINE These levels are explained as follows：
+The levels displayed in the Arena menu, from highest to lowest priority, are MATCH > ONLINE > OFFLINE These levels are explained as follows:
 
 | Level   | Explanation                                                           |
 | ------- | --------------------------------------------------------------------- |
