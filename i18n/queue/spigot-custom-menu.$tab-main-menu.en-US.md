@@ -1,15 +1,16 @@
 ---
-title: Customize the main menu
+title: 自定义主菜单
 ---
 
-# Customize the main menu
+# 自定义主菜单
 
-You can create a main menu by simply copying the text below into a newly created file.
+你只需要将下面的文本复制到新建的文件中就可以创建一个主菜单。
 
-:::warning{title=tips}
-Don't forget to add the text of this menu in the language file ::.
+:::warning{title=提示}
+不要忘记在语言文件中添加此菜单的文本
+:::
 
-## Configuration file
+## 配置文件
 
 ```yaml
 rows: 3
@@ -29,7 +30,7 @@ area-select-clicked:
 other:
   rejoin:
     slot: 49
-    item. ARROW
+    item: ARROW
     console-command: []
     player-command:
       - rejoin
