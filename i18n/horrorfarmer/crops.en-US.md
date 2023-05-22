@@ -1,10 +1,10 @@
-# Crop
+# 作物
 
-Crops are the main source of economy.
+作物是经济主要来源。
 
-| Crop     | Type      | For Sale | Purchase | Advantages                | Disadvantages                          | Interactable with          | Rare Output                                   | Main playing method                                             |
-| -------- | --------- | -------- | -------- | ------------------------- | -------------------------------------- | -------------------------- | --------------------------------------------- | --------------------------------------------------------------- |
-| Wheat    | General   | 5        | 2        | Fast growth rate          | Low selling price No aggressiveness    | Chicken Pill-making pot    | Golden wheat, carrots, potatoes               | Composting stream Golden Medicine stream                        |
-| Carrot   | Excellent | 10       | 100      | Fast earning Cash crop    | None                                   | Pigs Pill-making pot       | Golden Carrot                                 | Traditional radish stream Medicine making stream                |
-| Potatoes | Excellent | 12       | 250      | Aggressiveness            | Slow money purchase price is expensive | Pigs Pill-making pot       | Potato mines Toxic potatoes                   | Potato Thunder Stream Medicine Refining Stream                  |
-| Beetroot | Advanced  | 35~100   | 100      | Advanced material sources | Cannot be replanted Must buy seeds     | Pill-making pot Golden hoe | Golden Apple Watermelon Pumpkin Sweet Berries | Gold shovel stream Watermelon burst kill stream Medicine stream |
+| 作物  | 类型 | 出售     | 购买  | 优点         | 缺点          | 可交互与   | 稀有产出          | 主要打法          |
+| --- | -- | ------ | --- | ---------- | ----------- | ------ | ------------- | ------------- |
+| 小麦  | 普通 | 5      | 2   | 生长速度快      | 售价低 没有进攻性   | 鸡 炼药锅  | 黄金小麦 胡萝卜 土豆   | 堆肥流 黄金炼药流     |
+| 胡萝卜 | 优秀 | 10     | 100 | 赚钱快 属于经济作物 | 无           | 猪 炼药锅  | 金胡萝卜          | 传统萝卜流 炼药流     |
+| 土豆  | 优秀 | 12     | 250 | 攻击性强       | 赚钱慢 购入价偏贵   | 猪 炼药锅  | 土豆雷 毒马铃薯      | 土豆雷流 炼药流      |
+| 甜菜根 | 高级 | 35~100 | 100 | 高级素材来源     | 无法重复种植 必买种子 | 炼药锅 金锄 | 金苹果 西瓜 南瓜 甜浆果 | 金铲流 西瓜爆杀流 炼药流 |
