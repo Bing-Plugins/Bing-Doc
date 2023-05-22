@@ -1,15 +1,15 @@
-# 农场设施
+# Farm facilities
 
-每位玩家在游戏开始之后，都会分配一个农场。 可以在种田人大厅，了解农场的详细分布
+Each player is assigned a farm after the game starts. You can find out the detailed distribution of farms in the Growers' Hall
 
-## 田地
+## Field
 
-有 5*5 可种植的田地。
+There are 5*5 plantable fields.
 
-## 商人
+## Businessmen
 
-使用积分购买所需道具和材料，详情可以到商人章节查看。
+Use points to purchase the required props and materials, details can be found in the Merchant section.
 
-## 出货箱
+## Shipping Box
 
-出售点，可以将可回收的物品放入回收箱获取积分。
+Point of sale, you can put recyclable items into the recycling bin to get points.
