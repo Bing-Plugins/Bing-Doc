@@ -1,11 +1,11 @@
 ---
-group: 子服务器配置文件
+group: Subserver Configuration Files
 ---
 
-# 自定义菜单配置文件
+# Customized menu profiles
 
-自定义主菜单需要在 `main-gui` 文件夹内新建 `{id}.yml` 文件。
+To customize the main menu, create a new `{id}.yml` file in the `main-gui` folder.
 
-自定义竞技场菜单需要在 `area-gui` 文件夹内新建 `{id}.yml` 文件。
+Customizing the arena menu requires a new `{id}.yml` file in the `area-gui` folder.
 
-具体配置文件内填写内容点击上方的页面切换。
+Click on the page switch above to fill in the specific profile.
