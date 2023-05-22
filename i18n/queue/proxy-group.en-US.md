@@ -1,46 +1,46 @@
 ---
-group: 代理端配置文件
+group: Proxy-side configuration file
 ---
 
 # Group.yml
 
 ```yaml
-# 组名称
+# Group name
 Lobby:
-  # 组展示名称
+  # Group display name
   display-name: "&aLobby"
-  # 匹配规则
-  # MORE_ONLINE 更多玩家优先
-  # LESS_ONLINE 更少玩家优先
-  # MOTD 根据 MOTD 匹配
-  # MOTD_AND_MORE_ONLINE 根据 MOTD 匹配并人数最多优先
-  # MOTD_AND_LESS_ONLINE 根据 MOTD 匹配并人数最少优先
-  # MOTD_AND_RANDOM 根据 MOTD 匹配并随机选择
-  # RANDOM 随机选择可用服务器
+  # Matching rules
+  # MORE_ONLINE More players first
+  # LESS_ONLINE Fewer players first
+  # MOTD Matches based on MOTD
+  # MOTD_AND_MORE_ONLINE Matches based on MOTD and has the most people first
+  # MOTD_AND_LESS_ONLINE matches according to MOTD and has the lowest number of players first
+  # MOTD_AND_RANDOM matches according to MOTD and selects randomly
+  # RANDOM randomly selects available servers
   rule: "MORE_ONLINE"
   motd:
   - "Server Can Join"
-  # 仅用于显示的替换
+  # Replacements for display only
   motd-replace:
-    "WAITING": "等待中"
-    "STARTING": "倒计时中"
-    "PLAYING": "游戏中"
-    "ENDING": "已结束"
-  # 延迟匹配上
+    "WAITING": "Waiting"
+    "STARTING": "Counting down"
+    "PLAYING": "In game"
+    "ENDING": "Ended"
+  # Delayed match on
   delay: 0
-  # 标签
+  # Tag
   tag:
   - DISABLE_TITLE
   - DISABLE_MESSAGE
-  # MATCH 仅包含在线且符合匹配条件的服务器（默认）
-  # ONLINE 包含所有在线的服务器
-  # OFFLINE 包含所有匹配池中的服务器
+  # MATCH Contains only servers that are online and match the criteria (default)
+  # ONLINE Contains all servers that are online
+  # OFFLINE Contains all servers in the match pool
   gui-show-level: MATCH
-  # 匹配池
+  # Match pool
   servers:
-    # 与代理端名称一致
+    # Same name as the proxy side
     lobby_1:
-      # 展示名称
+      # Display name
       display-name: "&aLobby #1"
       timeout: 1000
       charset: "UTF-8"
@@ -48,52 +48,52 @@ Lobby:
 ```
 
 ## display-name
-匹配组的展示名称，通常用于语言文件中的 `%queueDisplayName%` 替换。
+The display name of the matching group, usually used for the `%queueDisplayName%` replacement in language files.
 
 ## rule
-用于匹配服务器的规则。
+Rules for matching servers
 
-| 规则                     | 解释                |
-| ---------------------- | ----------------- |
-| MORE_ONLINE            | 更多玩家优先            |
-| LESS_ONLINE 更少玩家优先     |                   |
-| MOTD                   | 根据 MOTD 匹配        |
-| MOTD_AND_MORE_ONLINE | 根据 MOTD 匹配并人数最多优先 |
-| MOTD_AND_LESS_ONLINE | 根据 MOTD 匹配并人数最少优先 |
-| MOTD_AND_RANDOM      | 根据 MOTD 匹配并随机选择   |
-| RANDOM                 | 随机选择可用服务器         |
+| Rule                            | Explanation                                              |
+| ------------------------------- | -------------------------------------------------------- |
+| MORE_ONLINE                     | More players first                                       |
+| LESS_ONLINE Fewer players first |                                                          |
+| MOTD                            | Match according to MOTD                                  |
+| MOTD_AND_MORE_ONLINE          | Match according to MOTD and prioritize the most players  |
+| MOTD_AND_LESS_ONLINE          | Match according to MOTD and prioritize the least players |
+| MOTD_AND_RANDOM               | Match according to MOTD and randomly select              |
+| RANDOM                          | Randomly select an available server                      |
 
 ## motd
-仅当需要 MOTD 的规则才需要填写此部分，包含所有接受的 MOTD 列表。
+Only when a rule requires MOTD, this part needs to be filled in, containing a list of all accepted MOTDs.
 
 ## motd-replace
-仅当需要 MOTD 的规则才需要填写此部分，可以填入它们展示时候的名称。
+Only when a rule requires MOTD, this part needs to be filled in, and you can fill in their names when they are displayed.
 
 ## delay
-当使用匹配功能时候的人工延迟。
+Artificial delay when using the matching function
 
 ## tag
-匹配组的属性，目前只支持以下两种：
+The attributes of the matching group, currently only support the following two types:
 
-| 属性              | 解释           |
-| --------------- | ------------ |
-| DISABLE_TITLE   | 匹配时不显示 Title |
-| DISABLE_MESSAGE | 匹配时不显示消息     |
+| Attribute       | Explanation                          |
+| --------------- | ------------------------------------ |
+| DISABLE_TITLE   | Do not display Title when matching   |
+| DISABLE_MESSAGE | Do not display message when matching |
 
 ## gui-show-level
-竞技场菜单中展示的等级，优先级由高到低分别是 MATCH > ONLINE > OFFLINE 这些等级的解释如下：
+The levels displayed in the Arena menu, from highest to lowest priority, are MATCH > ONLINE > OFFLINE These levels are explained as follows：
 
-| 等级      | 解释                   |
-| ------- | -------------------- |
-| MATCH   | 仅包含在线且符合匹配条件的服务器（默认） |
-| ONLINE  | 包含所有在线的服务器           |
-| OFFLINE | 包含所有匹配池中的服务器         |
+| Level   | Explanation                                                           |
+| ------- | --------------------------------------------------------------------- |
+| MATCH   | Only include online servers that meet the matching criteria (default) |
+| ONLINE  | Include all online servers                                            |
+| OFFLINE | Include all servers in the matching pool                              |
 
 ## servers
-匹配组内的服务器列表以及它们的属性。
+The list of servers in the matching group and their attributes display-name: display-name.
 
-| 属性           | 解释                                          |
-| ------------ | ------------------------------------------- |
-| display-name | 展示时的名称，通常用于语言文件中的 `%serverDisplayName%` 替换。 |
-| timeout      | 超时时间，ping 超过这个时间未得到响应时认定为离线，单位毫秒            |
-| charset      | MOTD 的编码                                    |
+| Attribute    | Explanation                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------ |
+| display-name | The name at the time of presentation, usually used for the `%serverDisplayName%` replacement in the language file. |
+| timeout      | Timeout time, when ping exceeds this time without response, it is considered offline, unit milliseconds            |
+| charset      | The encoding of MOTD                                                                                               |
