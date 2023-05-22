@@ -1,29 +1,29 @@
-# Businessmen
-Buy&upgrade equipment
+# 商人
+购买&升级装备
 
-## Item Purchase
+## 物品购买
 
-| Commodities        | Price |
-| ------------------ | ----- |
-| Wheat seed         | 2     |
-| Carrot             | 100   |
-| Potatoes           | 250   |
-| Beetroot           | 100   |
-| Fishing Rods       | 150   |
-| Compost bin        | 50    |
-| Pill-making pot    | 250   |
-| Bone meal          | 10    |
-| Dogs               | 150   |
-| Cat                | 200   |
-| Chicken            | 150   |
-| Pigs               | 250   |
-| Terror Iron Puppet | 3000  |
+| 商品    | 价格   |
+| ----- | ---- |
+| 小麦种子  | 2    |
+| 胡萝卜   | 100  |
+| 土豆    | 250  |
+| 甜菜根   | 100  |
+| 鱼竿    | 150  |
+| 堆肥桶   | 50   |
+| 炼药锅   | 250  |
+| 骨粉    | 10   |
+| 狗     | 150  |
+| 猫     | 200  |
+| 鸡     | 150  |
+| 猪     | 250  |
+| 恐怖铁傀儡 | 3000 |
 
-# Hoe Upgrade
+# 锄头升级
 
-| Grade      | Price | Materials                                             |
-| ---------- | ----- | ----------------------------------------------------- |
-| Wooden hoe | None  | None                                                  |
-| Stone hoe  | 150   | None                                                  |
-| Iron hoe   | 300   | Stone hoe +5 wheat +5 carrots +5 potatoes             |
-| Golden Hoe | None  | Iron hoe + 3 gold carrots + 1 gold egg + 1 gold apple |
+| 等级  | 价格  | 材料                 |
+| --- | --- | ------------------ |
+| 木锄头 | 无   | 无                  |
+| 石锄头 | 150 | 无                  |
+| 铁锄头 | 300 | 石锄头+5小麦+5胡萝卜+5土豆   |
+| 金锄头 | 无   | 铁锄头+3金胡萝卜+1金蛋+1金苹果 |
