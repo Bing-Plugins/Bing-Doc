@@ -1,6 +1,6 @@
 ---
 group:
-  title: 子服务器配置文件
+  title: Subserver Configuration Files
   order: 3
 ---
 
@@ -20,19 +20,19 @@ floodgate-icon-url: "https://demo.yistars.net/queue/{name}.png"
 ```
 
 ## token
-购买后联系插件作者获取的 `token` ，需要正确填入 `token` ，插件才可以正常运行。
+After purchase, contact the plugin author to get the `token` , you need to fill in the `token` correctly in order for the plugin to work properly.
 
 ## default-main-menu
-默认主菜单名称文件名称，位于 `main-gui` 文件夹。
+Default main menu name file name, located in the `main-gui` folder.
 
 ## default-area-select-menu
-默认竞技场菜单文件名称，位于 `area-gui` 文件夹。
+The name of the default arena menu file, located in the `area-gui` folder.
 
 ## custom-main-menu
-自定义主菜单使用名称和文件名称对应表，位于 `main-gui` 文件夹。
+Custom main menu use name and file name correspondence table, located at `main-gui` folder.
 
 ## custom-area-select-menu
-自定义竞技场菜单使用名称和文件名称对应表，位于 `area-gui` 文件夹。
+Custom arena menu use name and file name correspondence table, located in the `area-gui` folder.
 
 ## floodgate-icon-url
-Floodgate 使用图标时访问的图片路径格式。
+The image path format that Floodgate accesses when using icons.
