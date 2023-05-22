@@ -1,16 +1,16 @@
 ---
-group: 子服务器配置文件
+group: Sub-server configuration file
 ---
 
 # Lang.yml
 
-语言文件中包含了此插件绝大部分的语句。
+The language file contains most of the sentences of this plugin.
 
 
-## 自定义 Gui 的语言添加
+## Language addition for custom Gui
 
-:::warning{title=特别提醒}
-要添加自定义 Gui 的，不要忘记这一步
+:::warning{title=Special reminder}
+To add a custom Gui, don’t forget this step
 :::
 
-具体内容点击上方的页面切换。
+Click on the page switch above for the specific content.
