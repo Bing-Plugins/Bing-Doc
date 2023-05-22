@@ -1,6 +1,6 @@
 ---
 group:
-  title: 組態文件
+  title: 配置文件
   order: 4
 ---
 
