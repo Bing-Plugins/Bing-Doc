@@ -1,46 +1,46 @@
 ---
-group: Proxy side configuration file
+group: 代理端配置文件
 ---
 
 # Group.yml
 
 ```yaml
-# Group name
+# 组名称
 Lobby:
-  # Group display name
+  # 组展示名称
   display-name: "&aLobby"
-  # Matching rules
-  # MORE_ONLINE More players first
-  # LESS_ONLINE Fewer players first
-  # MOTD Matches based on MOTD
-  # MOTD_AND_MORE_ONLINE Matches based on MOTD and has the most people first
-  # MOTD_AND_LESS_ONLINE matches according to MOTD and has the lowest number of players first
-  # MOTD_AND_RANDOM matches according to MOTD and selects randomly
-  # RANDOM randomly selects available servers
+  # 匹配规则
+  # MORE_ONLINE 更多玩家优先
+  # LESS_ONLINE 更少玩家优先
+  # MOTD 根据 MOTD 匹配
+  # MOTD_AND_MORE_ONLINE 根据 MOTD 匹配并人数最多优先
+  # MOTD_AND_LESS_ONLINE 根据 MOTD 匹配并人数最少优先
+  # MOTD_AND_RANDOM 根据 MOTD 匹配并随机选择
+  # RANDOM 随机选择可用服务器
   rule: "MORE_ONLINE"
   motd:
   - "Server Can Join"
-  # Replacements for display only
+  # 仅用于显示的替换
   motd-replace:
-    "WAITING": "Waiting"
-    "STARTING": "Counting down"
-    "PLAYING": "In game"
-    "ENDING": "Ended"
-  # Delayed match on
+    "WAITING": "等待中"
+    "STARTING": "倒计时中"
+    "PLAYING": "游戏中"
+    "ENDING": "已结束"
+  # 延迟匹配上
   delay: 0
-  # Tag
+  # 标签
   tag:
   - DISABLE_TITLE
   - DISABLE_MESSAGE
-  # MATCH Contains only servers that are online and match the criteria (default)
-  # ONLINE Contains all servers that are online
-  # OFFLINE Contains all servers in the match pool
+  # MATCH 仅包含在线且符合匹配条件的服务器（默认）
+  # ONLINE 包含所有在线的服务器
+  # OFFLINE 包含所有匹配池中的服务器
   gui-show-level: MATCH
-  # Match pool
+  # 匹配池
   servers:
-    # Same name as the proxy side
+    # 与代理端名称一致
     lobby_1:
-      # Display name
+      # 展示名称
       display-name: "&aLobby #1"
       timeout: 1000
       charset: "UTF-8"
@@ -48,52 +48,52 @@ Lobby:
 ```
 
 ## display-name
-The display name of the matching group, usually used for the `%queueDisplayName%` replacement in language files.
+匹配组的展示名称，通常用于语言文件中的 `%queueDisplayName%` 替换。
 
 ## rule
-The rule used to match the server.
+用于匹配服务器的规则。
 
-| Rules                           | Explanation                                                   |
-| ------------------------------- | ------------------------------------------------------------- |
-| MORE_ONLINE                     | More players first                                            |
-| LESS_ONLINE Fewer players first |                                                               |
-| MOTD                            | Matching according to MOTD                                    |
-| MOTD_AND_MORE_ONLINE          | Matching according to MOTD and highest number of people first |
-| MOTD_AND_LESS_ONLINE          | Matching according to MOTD and lowest number priority         |
-| MOTD_AND_RANDOM               | Matching and random selection according to MOTD               |
-| RANDOM                          | Random selection of available servers                         |
+| 规则                     | 解释                |
+| ---------------------- | ----------------- |
+| MORE_ONLINE            | 更多玩家优先            |
+| LESS_ONLINE 更少玩家优先     |                   |
+| MOTD                   | 根据 MOTD 匹配        |
+| MOTD_AND_MORE_ONLINE | 根据 MOTD 匹配并人数最多优先 |
+| MOTD_AND_LESS_ONLINE | 根据 MOTD 匹配并人数最少优先 |
+| MOTD_AND_RANDOM      | 根据 MOTD 匹配并随机选择   |
+| RANDOM                 | 随机选择可用服务器         |
 
 ## motd
-This section needs to be filled in only if the rule requires a MOTD and contains a list of all accepted MOTDs.
+仅当需要 MOTD 的规则才需要填写此部分，包含所有接受的 MOTD 列表。
 
 ## motd-replace
-This section is only required for rules that require MOTD and can be filled in with the name as they are displayed.
+仅当需要 MOTD 的规则才需要填写此部分，可以填入它们展示时候的名称。
 
 ## delay
-Manual delay when using the match function.
+当使用匹配功能时候的人工延迟。
 
 ## tag
-Matching group attributes, currently only the following two are supported：
+匹配组的属性，目前只支持以下两种：
 
-| Properties      | Explanation                           |
-| --------------- | ------------------------------------- |
-| DISABLE_TITLE   | Title is not displayed when matching  |
-| DISABLE_MESSAGE | No message is displayed when matching |
+| 属性              | 解释           |
+| --------------- | ------------ |
+| DISABLE_TITLE   | 匹配时不显示 Title |
+| DISABLE_MESSAGE | 匹配时不显示消息     |
 
 ## gui-show-level
-The levels displayed in the Arena menu, from highest to lowest priority, are MATCH > ONLINE > OFFLINE These levels are explained as follows：
+竞技场菜单中展示的等级，优先级由高到低分别是 MATCH > ONLINE > OFFLINE 这些等级的解释如下：
 
-| Grade   | Explanation                                                            |
-| ------- | ---------------------------------------------------------------------- |
-| MATCH   | Contains only servers that are online and match the criteria (default) |
-| ONLINE  | Includes all online servers                                            |
-| OFFLINE | Contains all servers in the match pool                                 |
+| 等级      | 解释                   |
+| ------- | -------------------- |
+| MATCH   | 仅包含在线且符合匹配条件的服务器（默认） |
+| ONLINE  | 包含所有在线的服务器           |
+| OFFLINE | 包含所有匹配池中的服务器         |
 
 ## servers
-A list of servers in the match group and their attributes.
+匹配组内的服务器列表以及它们的属性。
 
-| Properties   | Explanation                                                                                                        |
-| ------------ | ------------------------------------------------------------------------------------------------------------------ |
-| display-name | The name at the time of presentation, usually used for the `%serverDisplayName%` replacement in the language file. |
-| timeout      | Timeout time, the ping is considered offline when no response is received after this time, in milliseconds         |
-| charset      | Coding of MOTD                                                                                                     |
+| 属性           | 解释                                          |
+| ------------ | ------------------------------------------- |
+| display-name | 展示时的名称，通常用于语言文件中的 `%serverDisplayName%` 替换。 |
+| timeout      | 超时时间，ping 超过这个时间未得到响应时认定为离线，单位毫秒            |
+| charset      | MOTD 的编码                                    |
