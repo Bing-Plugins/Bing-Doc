@@ -1,5 +1,5 @@
 ---
-group: 配置文件
+group: 組態文件
 ---
 
 # Rank.yml
