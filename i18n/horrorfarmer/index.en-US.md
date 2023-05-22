@@ -1,14 +1,14 @@
 ---
-title: 恐怖种田人指南
+title: Horror Farmer Guide
 nav:
-  title: 恐怖种田人
+  title: Horror Farmer
   order: 1
 ---
 
-# 恐怖种田人
+# Horror Farmer
 
-恐怖种田人是 2023 年三月份推出的一款派对小游戏，制作用时一个半月，由 `月影yancie` 和 `冰砚炽` 共同制作完成，是他们的首个练手磨合作品。
+Horror Seeders is a party game released in March 2023, produced in one and a half months by `yancie` and `Bing_Yanchi`. It was their first practice work together.
 
-建议玩法教程可以在哔哩哔哩上查看：https://www.bilibili.com/video/BV1Sg4y1W7cz/
+You can watch the recommended gameplay tutorial on Bilibili: https://www.bilibili.com/video/BV1Sg4y1W7cz/
 
-此指南详细介绍了各个功能/道具的参数等信息，现在你可以点击左侧的按钮开始查看了。
+This guide provides detailed information on the parameters of each function/item. You can now click the button on the left to start viewing.
