@@ -1,5 +1,5 @@
 ---
-group: Command
+group: 命令
 ---
 
-# Administrators use the command
+# 管理员用命令
