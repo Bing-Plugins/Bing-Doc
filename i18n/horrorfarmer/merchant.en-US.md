@@ -1,29 +1,29 @@
-# 商人
-购买&升级装备
+# Merchant
+Buy&Upgrade Equipment
 
-## 物品购买
+## Item Purchase
 
-| 商品    | 价格   |
-| ----- | ---- |
-| 小麦种子  | 2    |
-| 胡萝卜   | 100  |
-| 土豆    | 250  |
-| 甜菜根   | 100  |
-| 鱼竿    | 150  |
-| 堆肥桶   | 50   |
-| 炼药锅   | 250  |
-| 骨粉    | 10   |
-| 狗     | 150  |
-| 猫     | 200  |
-| 鸡     | 150  |
-| 猪     | 250  |
-| 恐怖铁傀儡 | 3000 |
+| Product           | Price |
+| ----------------- | ----- |
+| Wheat Seeds       | 2     |
+| Carrot            | 100   |
+| Potato            | 250   |
+| Beetroot          | 100   |
+| Fishing Rod       | 150   |
+| Compost Bin       | 50    |
+| Cooking Pot       | 250   |
+| Bone Meal         | 10    |
+| Dog               | 150   |
+| Cat               | 200   |
+| Chicken           | 150   |
+| Pig               | 250   |
+| Horror Iron Golem | 3000  |
 
-# 锄头升级
+# Hoe Upgrade
 
-| 等级  | 价格  | 材料                 |
-| --- | --- | ------------------ |
-| 木锄头 | 无   | 无                  |
-| 石锄头 | 150 | 无                  |
-| 铁锄头 | 300 | 石锄头+5小麦+5胡萝卜+5土豆   |
-| 金锄头 | 无   | 铁锄头+3金胡萝卜+1金蛋+1金苹果 |
+| Level      | Price | Material                                                   |
+| ---------- | ----- | ---------------------------------------------------------- |
+| Wooden Hoe | None  | None                                                       |
+| Stone Hoe  | 150   | None                                                       |
+| Iron Hoe   | 300   | Stone Hoe + 5 Wheat + 5 Carrot + 5 Potato                  |
+| Golden Hoe | None  | Iron Hoe + 3 Golden Carrot + 1 Golden Egg + 1 Golden Apple |
