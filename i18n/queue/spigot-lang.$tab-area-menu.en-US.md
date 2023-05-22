@@ -1,28 +1,27 @@
 ---
-title: 自定义竞技场菜单
+title: Custom arena menu
 ---
 
-# 自定义竞技场菜单
+# Custom arena menu
 
-你只需要将下面的文本复制一次就可以为一个自定义竞技场菜单填写语言文本
+You only need to copy the text below once to fill in the language text for a custom arena menu
 
-## 可用的变量
-| 变量                   | 解释        |
-| -------------------- | --------- |
-| %queueName%          | 原始匹配组 ID  |
-| %queueDisplayName%   | 匹配组展示名称   |
-| %serverName%         | 原始服务器 ID  |
-| %serverDisplayName%  | 服务器展示名称   |
-| %serverMotd%         | 服务器 MOTD  |
-| %serverPlayerNum%    | 当前服务器在线人数 |
-| %serverMaxPlayerNum% | 服务器最大人数   |
+## Available variables
+| Variable             | Explanation                  |
+| -------------------- | ---------------------------- |
+| %queueName%          | Original match group ID      |
+| %queueDisplayName%   | Match group display name     |
+| %serverName%         | Original server ID           |
+| %serverDisplayName%  | Server display name          |
+| %serverMotd%         | Server MOTD                  |
+| %serverPlayerNum%    | Current server online number |
+| %serverMaxPlayerNum% | Server maximum number        |
 
-## 语言配置文本
+## Language configuration text
 
-:::warning{title=提示}
-记得将下文中的 `{area-menu-id}` 替换为你的自定义竞技场菜单的 ID\
-`{other-name}` 替换为自定义物品的 ID
-:::
+:::warning{title=tips}
+Remember to replace `{area-menu-id}` below with the ID of your custom arena menu\
+`{other-name}` with the ID of your custom item ::.
 
 ```yaml
 gui-{area-menu-id}-title: "%queueDisplayName%"
@@ -69,16 +68,16 @@ gui-{area-menu-id}-other-{other-name}-description: |-
 ```
 
 ### gui-{area-menu-id}-title
-竞技场菜单显示标题
+Arena menu display title
 
 ### gui-{area-menu-id}-{match/online/offline}-server-{name/description}
-竞技场 `匹配/在线/离线` 时显示的服务器 `名称/描述信息`
+Arena `Matching/Online/Offline` Server displayed when `Name/Description Information`
 
 ### gui-{area-menu-id}-random-{name/description}
-随机选择竞技场按钮显示的 `名称/描述信息`
+Random selection of arena button displayed at `Name/Description information`
 
 ### gui-area-{previous/next}-page-{name/description}
-`上一页/下一页` 按钮的 `名称/描述信息`
+`Previous/Next` button's `Name/Description Information`
 
 ### gui-{area-menu-id}-other-{other-name}-{name/description}
-自定义按钮的 `名称/描述信息`
+Custom button's `name/description information`
