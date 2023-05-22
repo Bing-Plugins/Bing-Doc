@@ -1,16 +1,16 @@
-# 动物
+# Animals
 
-提供额外素材与战术。
+Provide additional material and tactics.
 
-## 狗
-商店售价：150 投喂骨头或者鱼时,有概率 为主人出击,攻击其他玩家
+## Dogs
+Store price：150 When feeding bones or fish, you have the chance to attack other players for your master
 
-## 猫
-商店售价：200 投喂鱼时,有概率为主人出 击,攻击其他小动物
+## Cat
+Store price：200 When feeding the fish, there is a chance that the owner will attack other small animals
 
-## 铁傀儡
+## Iron Puppet
 
-商店售价：3000 没人敢在这玩意面前嚣张
+Store price：3000 No one dares to be arrogant in front of this thing
 
-## 狐狸
-商店售价：？ 投喂甜浆果时,有概率为主人出击,盗取其他玩家的钱
+## Foxes
+Store price：? When feeding sweet berries, there is a chance that the master will strike and steal money from other players.
