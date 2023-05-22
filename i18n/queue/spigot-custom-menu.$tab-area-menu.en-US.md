@@ -1,16 +1,16 @@
 ---
-title: 自定义竞技场菜单
+title: Custom arena menu
 ---
 
-# 自定义竞技场菜单
+# Custom arena menu
 
-你只需要将下面的文本复制到新建的文件中就可以创建一个竞技场菜单。
+You only need to copy the text below to a new file to create an arena menu.
 
-:::warning{title=提示}
-不要忘记在语言文件中添加此菜单的文本
+:::warning{title=Tip}
+Don’t forget to add the text of this menu in the language file
 :::
 
-## 配置文件
+## Configuration file
 
 ```yaml
 rows: 6
