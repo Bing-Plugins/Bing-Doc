@@ -3,6 +3,7 @@ title: BingSkyPvP Guide
 nav:
   title: BingSkyPvP
   order: 1
+toc: content
 ---
 
 # Welcome to BingSkyPvP Guide
