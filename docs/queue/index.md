@@ -3,6 +3,7 @@ title: BingQueue 指南
 nav:
   title: BingQueue
   order: 2
+toc: content
 ---
 
 # 欢迎访问 BingQueue 指南

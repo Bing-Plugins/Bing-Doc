@@ -3,6 +3,7 @@ title: BingSkyPvP 指南
 nav:
   title: BingSkyPvP
   order: 1
+toc: content
 ---
 
 # 欢迎访问 BingSkyPvP 指南
