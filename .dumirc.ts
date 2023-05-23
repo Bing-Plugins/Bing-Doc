@@ -6,14 +6,20 @@ export default defineConfig({
     docDirs: ['i18n'],
   },
   themeConfig: {
-    name: 'BingTang Docs',
-    github: 'https://github.com/Bing-Plugins/BingTang-Doc',
-    footer: false,
+    social: {
+      github: {
+        name: 'dumi-theme-chakra',
+        link: 'https://github.com/Bing-Plugins/BingTang-Doc'
+      },
+    },
+    helmetIcon: '',
+    footer: `Copyright © ${new Date().getFullYear()} BingTang Docs`,
     showLineNum: true,
     rtl: true,
     settingPanelVisible: true,
     thumbBackground: true,
     code: 'prism',
+    showVersionBadge: true,
   },
   locales: [
     { id: 'zh-CN', name: '简体中文' },
