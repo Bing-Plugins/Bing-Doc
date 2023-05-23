@@ -19,7 +19,6 @@ export default defineConfig({
     settingPanelVisible: true,
     thumbBackground: true,
     code: 'prism',
-    showVersionBadge: true,
   },
   locales: [
     { id: 'zh-CN', name: '简体中文' },
