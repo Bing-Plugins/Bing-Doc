@@ -13,5 +13,3 @@ toc: content
 Thank you for using BingSkyPvP, this plugin is updated regularly.
 
 Next, click on the page name on the left to start browsing the guide!
-
-<Features></Features>
