@@ -70,7 +70,7 @@
     "concurrently": "^7",
     "cross-env": "^7",
     "dumi": "^2.2.0",
-    "dumi-theme-antd-style": "^0.25.2",
+    "dumi-theme-chakra": "^0.0.17",
     "eslint": "^8",
     "eslint-import-resolver-alias": "^1",
     "eslint-import-resolver-typescript": "^2",
