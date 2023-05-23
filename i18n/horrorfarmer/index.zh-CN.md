@@ -3,6 +3,7 @@ title: 恐怖种田人指南
 nav:
   title: 恐怖种田人
   order: 1
+toc: content
 ---
 
 # 恐怖种田人
