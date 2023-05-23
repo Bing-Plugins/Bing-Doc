@@ -3,6 +3,7 @@ title: Horror Farmer Guide
 nav:
   title: Horror Farmer
   order: 1
+toc: content
 ---
 
 # Horror Farmer
