@@ -1,4 +1,5 @@
 import { defineConfig } from 'dumi';
+import { defineThemeConfig } from 'dumi-theme-chakra';
 
 export default defineConfig({
   resolve: {
@@ -10,6 +11,9 @@ export default defineConfig({
     footer: false,
     showLineNum: true,
     rtl: true,
+    settingPanelVisible: true,
+    thumbBackground: true,
+    code: 'prism',
   },
   locales: [
     { id: 'zh-CN', name: '简体中文' },
