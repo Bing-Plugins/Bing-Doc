@@ -13,5 +13,3 @@ toc: content
 感谢你使用 BingSkyPvP，此插件长期更新。
 
 接下来点击左侧的页面名称开始浏览指南吧！
-
-<Features></Features>
