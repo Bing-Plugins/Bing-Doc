@@ -1,7 +1,7 @@
 ---
-title: 冰糖文档
+title: BingTang Docs
 hero:
-  title: 冰糖文档
+  title: BingTang Docs
   description: A library of information containing all the information about BingTang
   actions:
     - 

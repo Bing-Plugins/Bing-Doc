@@ -3,6 +3,7 @@ title: BingSkyPvP Guide
 nav:
   title: BingSkyPvP
   order: 1
+toc: content
 ---
 
 # Welcome to BingSkyPvP Guide
@@ -12,5 +13,3 @@ nav:
 Thank you for using BingSkyPvP, this plugin is updated regularly.
 
 Next, click on the page name on the left to start browsing the guide!
-
-<Features></Features>
