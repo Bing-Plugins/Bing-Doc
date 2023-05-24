@@ -24,7 +24,7 @@ export default defineConfig({
   locales: [
     { id: 'zh-CN', name: '简体中文' },
     { id: 'zh-TW', name: '繁體中文' },
-    { id: 'en-US', name: 'English'}
+    { id: 'en-US', name: 'English'},
   ],
   sitemap: {
     hostname: 'https://docs.yistars.net/'
