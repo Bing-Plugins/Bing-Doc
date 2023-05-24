@@ -27,5 +27,6 @@ export default defineConfig({
   ],
   sitemap: {
     hostname: 'https://docs.yistars.net/'
-  }
+  },
+  plugins: ['father-plugin-dumi-theme'],
 });
