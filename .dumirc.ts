@@ -6,6 +6,7 @@ export default defineConfig({
     docDirs: ['i18n'],
   },
   themeConfig: {
+    name: 'BingTang Docs',
     social: {
       github: {
         name: 'dumi-theme-chakra',
