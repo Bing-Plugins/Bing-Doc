@@ -7,13 +7,13 @@ export default defineConfig({
   },
   themeConfig: {
     name: 'BingTang Docs',
+    title: 'BingTang Docs',
     social: {
       github: {
         name: 'dumi-theme-chakra',
         link: 'https://github.com/Bing-Plugins/BingTang-Doc'
       },
     },
-    helmetIcon: '',
     footer: `Copyright © ${new Date().getFullYear()} BingTang Docs`,
     showLineNum: true,
     rtl: true,
