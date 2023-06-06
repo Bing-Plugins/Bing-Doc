@@ -1,16 +1,14 @@
 ---
-title: 冰糖文档
+title: 冰糖文檔
 hero:
-  title: 冰糖文档
+  title: 冰糖文檔
   description: 包含了冰糖有關的所有信息的資料庫
   actions:
     - 
       text: Crowdin
-      link: https://crowdin.com/project/bingtang-docs
     - 
       text: GitHub
       icon: github
-      link: https://github.com/Bing-Plugins/BingTang-Doc
 features:
   - 
     title: 主题
