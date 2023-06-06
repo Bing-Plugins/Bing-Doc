@@ -6,11 +6,9 @@ hero:
   actions:
     - 
       text: Crowdin
-      link: https://crowdin.com/project/bingtang-docs
     - 
       text: GitHub
       icon: github
-      link: https://github.com/Bing-Plugins/BingTang-Doc
 features:
   - 
     title: 主题
