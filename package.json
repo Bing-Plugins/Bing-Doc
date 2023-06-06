@@ -7,10 +7,6 @@
     "template"
   ],
   "homepage": "https://github.com/Bing-Plugins/BingTang-Docs",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Bing-Plugins/BingTang-Docs.git"
-  },
   "author": "BingTang(admin@yistars.net)",
   "scripts": {
     "start": "dumi dev",
@@ -26,7 +22,7 @@
     "@types/react-copy-to-clipboard": "^5.0.4",
     "@types/react-dom": "^18.2.4",
     "@umijs/lint": "^4.0.69",
-    "dumi": "^2.2.0",
+    "dumi": "^2.2.1",
     "dumi-assets-types": "^1.0.1",
 
     "eslint": "^8.41.0",
@@ -46,5 +42,35 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "peerDependencies": {
+    "dumi": "^2.2.1",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{css,less}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innocces/dumi-theme-chakra.git",
+    "branch": "main"
   }
 }

@@ -31,12 +31,7 @@ export default defineConfig({
     { id: 'zh-CN', name: '简体中文' },
     { id: 'en-US', name: 'English'},
   ],
-  devtool: 'cheap-module-source-map',
-
-  /*
   sitemap: {
     hostname: 'https://docs.yistars.net/'
   },
-
-   */
 });
