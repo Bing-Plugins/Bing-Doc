@@ -5,10 +5,8 @@ hero:
   description: 包含了冰糖有关的所有信息的资料库
   actions:
     - text: Crowdin
-      link: https://crowdin.com/project/bingtang-docs
     - text: GitHub
       icon: github
-      link: https://github.com/Bing-Plugins/BingTang-Doc
 features:
   - title: 主题
     link: https://chakra-ui.com/docs/styled-system/customize-theme
