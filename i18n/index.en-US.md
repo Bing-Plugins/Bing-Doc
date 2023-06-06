@@ -1,16 +1,14 @@
 ---
-title: 冰糖文档
+title: BingTang Docs
 hero:
-  title: 冰糖文档
+  title: BingTang Docs
   description: A library of information containing all the information about BingTang
   actions:
     - 
       text: Crowdin
-      link: https://crowdin.com/project/bingtang-docs
     - 
       text: GitHub
       icon: github
-      link: https://github.com/Bing-Plugins/BingTang-Doc
 features:
   - 
     title: 主题
