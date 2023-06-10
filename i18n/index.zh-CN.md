@@ -2,7 +2,7 @@
 title: 冰糖文档
 hero:
   title: 冰糖文档
-  description: 包含了冰糖有关的所有信息的资料库
+  description: 冰糖文档
   actions:
     - 
       text: Crowdin
@@ -13,8 +13,8 @@ features:
   - 
     title: 主题
     link: https://chakra-ui.com/docs/styled-system/customize-theme
-    icon: https://api.iconify.design/logos:randomcolor.svg
-    tag: power
+    icon: https://chakra-ui.com/docs/styled-system/customize-theme
+    tag: 能力
     description: 定制组件的任何部分，以配合您的设计需求
   - 
     title: 无障碍
